@@ -193,7 +193,7 @@ void StackDump(const Stack_t* stk, const int errnum, const char* file_name, cons
         int cur_error = errnum & (1 << position);
         if (cur_error != 0)
         {
-                fprintf(stderr, "%s\n", ErrorNames[errnum]);
+            fprintf(stderr, "%s\n", ErrorNames[errnum]);
         }
     }
 

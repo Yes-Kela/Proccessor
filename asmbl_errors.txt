@@ -1,0 +1,135 @@
+ABRAKADABRA
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 5, cmds_num = 0}
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 5, cmds_num = 0}
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 5, cmds_num = 2}
+    cmdarr[0] = 1
+    cmdarr[1] = 20
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 5, cmds_num = 4}
+    cmdarr[0] = 1
+    cmdarr[1] = 20
+    cmdarr[2] = 1
+    cmdarr[3] = 80
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 10, cmds_num = 5}
+    cmdarr[0] = 1
+    cmdarr[1] = 20
+    cmdarr[2] = 1
+    cmdarr[3] = 80
+    cmdarr[4] = 3
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 10, cmds_num = 7}
+    cmdarr[0] = 1
+    cmdarr[1] = 20
+    cmdarr[2] = 1
+    cmdarr[3] = 80
+    cmdarr[4] = 3
+    cmdarr[5] = 1
+    cmdarr[6] = 12
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 10, cmds_num = 9}
+    cmdarr[0] = 1
+    cmdarr[1] = 20
+    cmdarr[2] = 1
+    cmdarr[3] = 80
+    cmdarr[4] = 3
+    cmdarr[5] = 1
+    cmdarr[6] = 12
+    cmdarr[7] = 1
+    cmdarr[8] = 2
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 20, cmds_num = 10}
+    cmdarr[0] = 1
+    cmdarr[1] = 20
+    cmdarr[2] = 1
+    cmdarr[3] = 80
+    cmdarr[4] = 3
+    cmdarr[5] = 1
+    cmdarr[6] = 12
+    cmdarr[7] = 1
+    cmdarr[8] = 2
+    cmdarr[9] = 4
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 20, cmds_num = 11}
+    cmdarr[0] = 1
+    cmdarr[1] = 20
+    cmdarr[2] = 1
+    cmdarr[3] = 80
+    cmdarr[4] = 3
+    cmdarr[5] = 1
+    cmdarr[6] = 12
+    cmdarr[7] = 1
+    cmdarr[8] = 2
+    cmdarr[9] = 4
+    cmdarr[10] = 5
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 20, cmds_num = 12}
+    cmdarr[0] = 1
+    cmdarr[1] = 20
+    cmdarr[2] = 1
+    cmdarr[3] = 80
+    cmdarr[4] = 3
+    cmdarr[5] = 1
+    cmdarr[6] = 12
+    cmdarr[7] = 1
+    cmdarr[8] = 2
+    cmdarr[9] = 4
+    cmdarr[10] = 5
+    cmdarr[11] = 8
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 20, cmds_num = 13}
+    cmdarr[0] = 1
+    cmdarr[1] = 20
+    cmdarr[2] = 1
+    cmdarr[3] = 80
+    cmdarr[4] = 3
+    cmdarr[5] = 1
+    cmdarr[6] = 12
+    cmdarr[7] = 1
+    cmdarr[8] = 2
+    cmdarr[9] = 4
+    cmdarr[10] = 5
+    cmdarr[11] = 8
+    cmdarr[12] = 9
+
+
+tmp_code = [0061FF00]
+tmp_code = {cmdarr = 00763468, cmds_cap = 20, cmds_num = 13}
+    cmdarr[0] = 1
+    cmdarr[1] = 20
+    cmdarr[2] = 1
+    cmdarr[3] = 80
+    cmdarr[4] = 3
+    cmdarr[5] = 1
+    cmdarr[6] = 12
+    cmdarr[7] = 1
+    cmdarr[8] = 2
+    cmdarr[9] = 4
+    cmdarr[10] = 5
+    cmdarr[11] = 8
+    cmdarr[12] = 9
+
+

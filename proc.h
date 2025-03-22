@@ -64,7 +64,7 @@ enum Errors
     STACK_DTOR_FAILED     = 1 << 15
 };
 
-const int MAXCMD = 100;
+const int MAXCMD = 20;
 
 Errors StackConstructor(Stack_t* stk, StackSize_t capacity);
 Errors StackPush(Stack_t* stk, StackElem_t value);
@@ -77,9 +77,6 @@ int StackVerify(const Stack_t* stk);
 void StackDump(const Stack_t* stk, const int errnum, const char* file_name, const char* func_name, const int line, const char* mode);
 int StackAssert(const Stack_t* stk, const char* file_name, const char* func_name, const int line, const char* mode);
 void StackStop(Stack_t* stk, FILE* file);
-
-int AssembleProgram(FILE* program_file);
-int GetCommandCode(char* cmd);
 
 void RunProgram(FILE* commands_file, Stack_t* stk);
 

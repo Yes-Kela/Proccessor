@@ -2,11 +2,20 @@
 #define ASSEMBLER_H
 
 const int MAXCMD = 20;
+const int MAX_PARAM = 1;
+
 typedef struct
 {
     const char* cmd_name;
     int cmd_code;
 } Commands_t;
+
+typedef struct
+{
+    int* cmdarr;                                                                    // int* -> StackElem_t
+    size_t cmds_cap;                                                                // size_t -> StackSize_t
+    size_t cmds_num;                                                                // size_t -> StackSize_t
+} CmdArr_t;
 
 enum CmdCodes
 {
@@ -34,7 +43,9 @@ Commands_t commands[] =
     {"hlt",  CMD_HLT}
 };
 
-int AssembleProgram(FILE* program_file);
 int GetCommandCode(char* cmd);
+int ReadAsm(FILE* program_file, CmdArr_t* tmp_code);
+int MakeByteCode(FILE* commands_file, const CmdArr_t* tmp_code);
+void AssemblerDump(const CmdArr_t* tmp_code);
 
 #endif /* ASSEMBLER_H */
