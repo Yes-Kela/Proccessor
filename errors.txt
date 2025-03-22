@@ -1,0 +1,190 @@
+called from stack.cpp: StackConstructor(): 48
+StackConstructor() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 58
+StackPush() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 81
+StackPush() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 58
+StackPush() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 81
+StackPush() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 91
+StackPop() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 111
+StackPop() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 91
+StackPop() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 111
+StackPop() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 58
+StackPush() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 81
+StackPush() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 58
+StackPush() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 81
+StackPush() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 58
+StackPush() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 81
+StackPush() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 91
+StackPop() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 111
+StackPop() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 91
+StackPop() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 111
+StackPop() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 58
+StackPush() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 81
+StackPush() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 91
+StackPop() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 111
+StackPop() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 91
+StackPop() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 111
+StackPop() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 58
+StackPush() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPush(): 81
+StackPush() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 91
+StackPop() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackPop(): 111
+StackPop() successfully done
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackDestructor(): 260
+StackDestructor() successfully started
+{
+    stk [0061FF04]
+}
+
+called from stack.cpp: StackDestructor(): 271
+{
+    stk [0061FF04]
+    {
+        size     = 4294967293
+        capacity = 4294967293
+        data [00000000]
+    }
+}
+

@@ -1,0 +1,25 @@
+#ifndef RUNNER_H
+#define RUNNER_H
+
+typedef struct
+{
+    const char* cmd_name;
+    int cmd_code;
+} Commands_t;
+
+enum CmdCodes
+{
+    CMD_PUSH = 1,
+    CMD_POP  = 2,
+    CMD_ADD  = 3,
+    CMD_SUB  = 4,
+    CMD_DIV  = 5,
+    CMD_MUL  = 6,
+    CMD_IN   = 7,
+    CMD_OUT  = 8,
+    CMD_HLT  = 9
+};
+
+void RunProgram(FILE* commands_file, Stack_t* stk);
+
+#endif /* RUNNER_H */
