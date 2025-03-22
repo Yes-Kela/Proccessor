@@ -1,11 +1,19 @@
 #ifndef RUNNER_H
 #define RUNNER_H
 
+const int MAXLEN = 100;
+
 typedef struct
 {
     const char* cmd_name;
     int cmd_code;
 } Commands_t;
+
+typedef struct
+{
+    int* data;
+    size_t size;
+} Code_t;
 
 enum CmdCodes
 {
@@ -21,5 +29,7 @@ enum CmdCodes
 };
 
 void RunProgram(FILE* commands_file, Stack_t* stk);
+int ReadByteCode(FILE* commands_file, Stack_t* stk, Code_t* code);
+
 
 #endif /* RUNNER_H */

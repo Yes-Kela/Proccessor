@@ -4,6 +4,12 @@ StackConstructor() successfully done
     stk [0061FF08]
 }
 
+called from runner.cpp: ReadByteCode(): 84
+ReadByteCode() successfully started
+{
+    stk [0061FF08]
+}
+
 called from stack.cpp: StackPush(): 58
 StackPush() successfully started
 {

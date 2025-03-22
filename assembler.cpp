@@ -7,17 +7,13 @@
 
 int main(void)
 {
-    FILE* asmbl_err_file = fopen("asmbl_errors.txt", "w");
-
+    printf("TROLOLOLOLO\n");
+    FILE* asmbl_err_file = freopen("asmbl_errors.txt", "w", stderr);
     if (asmbl_err_file == NULL)
     {
-        fprintf(stderr, "failed to open asmbl_errors file\n");
+        printf("failed to connect asmbl_errors file with stderr\n");
         return 1;
     }
-
-    asmbl_err_file = freopen("asmbl_errors.txt", "w", stderr);
-
-    fprintf(stderr, "ABRAKADABRA\n");
 
     FILE* program_file = fopen("program.txt", "r");
     if (program_file == NULL)
@@ -112,7 +108,7 @@ int ReadAsm(FILE* program_file, CmdArr_t* tmp_code)
 
 int MakeByteCode(FILE* commands_file, const CmdArr_t* tmp_code)
 {
-
+    fprintf(commands_file, "program_size: %d\n", tmp_code->cmds_num);
     for (size_t i = 0; i < tmp_code->cmds_num; i++)
     {
         if ((tmp_code->cmdarr)[i] == CMD_PUSH)
@@ -128,7 +124,6 @@ int MakeByteCode(FILE* commands_file, const CmdArr_t* tmp_code)
 
     return 0;
 }
-
 
 void AssemblerDump(const CmdArr_t* tmp_code)
 {
