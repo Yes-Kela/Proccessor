@@ -5,6 +5,9 @@
 #include <string.h>
 #include "stack.h"
 
+// #define FULL_STACK_DUMP
+// #define WHOLE_DUMP
+
 static const char* ErrorNames[] =
 {
     "Stack is okay",
@@ -15,7 +18,7 @@ static const char* ErrorNames[] =
     "Stack Overflow",
     "Memory allocarion error",
     "Memory reallocation error",
-    "Attempt to pop from empty stack",
+    "Attempt to from empty stack",
     "Unauthorized access to the data from the left",
     "Unauthorized access to the data from the right"
 };
@@ -291,6 +294,7 @@ Errors StackDestructor(Stack_t* stk)
 int StackAssert(const Stack_t* stk, const char* file_name, const char* func_name, const int line, const char* mode)
 {
     int errnum = StackVerify(stk);
+
     StackDump(stk, errnum, file_name, func_name, line, mode);
 
     return errnum;
@@ -310,4 +314,33 @@ void StackStop(Stack_t* stk, FILE* file)
 {
     StackDestructor(stk);
     fclose(file);
+}
+
+StackSize_t StackElemNum(const int idx)
+{
+    return 1*sizeof(StackCanary_t) + idx * sizeof(StackElem_t);
+}
+
+StackElem_t GetStackElem(const Stack_t* stk, const int idx)
+{
+    StackElem_t value = 0;
+    memcpy(&value, stk->data + StackElemNum(idx), sizeof(StackElem_t));
+
+    return value;
+}
+
+StackCanary_t GetLeftCanary(const Stack_t* stk)
+{
+    StackCanary_t left_canary = 0;
+    memcpy(&left_canary, stk->data, sizeof(StackCanary_t));
+
+    return left_canary;
+}
+
+StackCanary_t GetRightCanary(const Stack_t* stk)
+{
+    StackCanary_t right_canary = 0;
+    memcpy(&right_canary, stk->data + StackRealCapacity(stk), sizeof(StackCanary_t));
+
+    return right_canary;
 }

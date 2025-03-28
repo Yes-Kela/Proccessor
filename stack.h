@@ -5,8 +5,14 @@
 #define SPOILED 0xBA51115A
 #define LEFT_CANARY 0xBAD1ABA
 #define RIGHT_CANARY 0xDEADDED
+
+#ifdef FULL_STACK_DUMP
 #define STACK_ASSERT_START(stk) StackAssert(stk, __FILE__, __func__, __LINE__, "beginning")
 #define STACK_ASSERT_END(stk) StackAssert(stk, __FILE__, __func__, __LINE__, "ending")
+#else
+#define STACK_ASSERT_START(stk) StackVerify(stk)
+#define STACK_ASSERT_END(stk) StackVerify(stk)
+#endif
 
 typedef unsigned int StackElem_t;
 typedef unsigned long int StackCanary_t;
@@ -49,8 +55,13 @@ Errors StackConstructor(Stack_t* stk, StackSize_t capacity);
 Errors StackPush(Stack_t* stk, StackElem_t value);
 Errors StackPop(Stack_t* stk, StackElem_t* value);
 Errors StackDestructor(Stack_t* stk);
+
 StackSize_t StackRealSize(const Stack_t* stk);
 StackSize_t StackRealCapacity(const Stack_t* stk);
+StackSize_t StackElemNum(const int idx);
+StackElem_t GetStackElem(const Stack_t* stk, const int idx);
+StackCanary_t GetLeftCanary(const Stack_t* stk);
+StackCanary_t GetRightCanary(const Stack_t* stk);
 
 int StackVerify(const Stack_t* stk);
 void StackDump(const Stack_t* stk, const int errnum, const char* file_name, const char* func_name, const int line, const char* mode);

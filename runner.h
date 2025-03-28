@@ -1,7 +1,10 @@
 #ifndef RUNNER_H
 #define RUNNER_H
 
+#define MAX_CODE_SIZE SIZE_MAX - 2
+
 const int MAXLEN = 100;
+
 
 typedef struct
 {
@@ -29,7 +32,9 @@ enum CmdCodes
 };
 
 void RunProgram(FILE* commands_file, Stack_t* stk);
-int ReadByteCode(FILE* commands_file, Stack_t* stk, Code_t* code);
+int ReadByteCode(FILE* commands_file, Code_t* code);
+int RunByteCode(Stack_t* stk, Code_t* code);
 
+void ProcDump(const Stack_t* stk/*, const Code_t* code*/);
 
 #endif /* RUNNER_H */

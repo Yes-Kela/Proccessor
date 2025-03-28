@@ -1,190 +1,79 @@
-called from stack.cpp: StackConstructor(): 48
-StackConstructor() successfully done
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 0  |  stk.data = [00722440]
+   stack: 0xBAD1ABA      0      0      0      0      0  0xDEADDED  
 
-called from runner.cpp: ReadByteCode(): 84
-ReadByteCode() successfully started
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 1  |  stk.data = [00722440]
+   stack: 0xBAD1ABA     20      0      0      0      0  0xDEADDED  
 
-called from stack.cpp: StackPush(): 58
-StackPush() successfully started
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 2  |  stk.data = [00722440]
+   stack: 0xBAD1ABA     20     80      0      0      0  0xDEADDED  
 
-called from stack.cpp: StackPush(): 81
-StackPush() successfully done
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 1  |  stk.data = [00722440]
+   stack: 0xBAD1ABA     20  0xBA51115A      0      0      0  0xDEADDED  
 
-called from stack.cpp: StackPush(): 58
-StackPush() successfully started
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 0  |  stk.data = [00722440]
+   stack: 0xBAD1ABA  0xBA51115A  0xBA51115A      0      0      0  0xDEADDED  
 
-called from stack.cpp: StackPush(): 81
-StackPush() successfully done
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 1  |  stk.data = [00722440]
+   stack: 0xBAD1ABA    100  0xBA51115A      0      0      0  0xDEADDED  
 
-called from stack.cpp: StackPop(): 91
-StackPop() successfully started
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 2  |  stk.data = [00722440]
+   stack: 0xBAD1ABA    100     12      0      0      0  0xDEADDED  
 
-called from stack.cpp: StackPop(): 111
-StackPop() successfully done
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 3  |  stk.data = [00722440]
+   stack: 0xBAD1ABA    100     12      2      0      0  0xDEADDED  
 
-called from stack.cpp: StackPop(): 91
-StackPop() successfully started
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 2  |  stk.data = [00722440]
+   stack: 0xBAD1ABA    100     12  0xBA51115A      0      0  0xDEADDED  
 
-called from stack.cpp: StackPop(): 111
-StackPop() successfully done
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 1  |  stk.data = [00722440]
+   stack: 0xBAD1ABA    100  0xBA51115A  0xBA51115A      0      0  0xDEADDED  
 
-called from stack.cpp: StackPush(): 58
-StackPush() successfully started
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 2  |  stk.data = [00722440]
+   stack: 0xBAD1ABA    100     10  0xBA51115A      0      0  0xDEADDED  
 
-called from stack.cpp: StackPush(): 81
-StackPush() successfully done
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 1  |  stk.data = [00722440]
+   stack: 0xBAD1ABA    100  0xBA51115A  0xBA51115A      0      0  0xDEADDED  
 
-called from stack.cpp: StackPush(): 58
-StackPush() successfully started
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 0  |  stk.data = [00722440]
+   stack: 0xBAD1ABA  0xBA51115A  0xBA51115A  0xBA51115A      0      0  0xDEADDED  
 
-called from stack.cpp: StackPush(): 81
-StackPush() successfully done
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 1  |  stk.data = [00722440]
+   stack: 0xBAD1ABA     10  0xBA51115A  0xBA51115A      0      0  0xDEADDED  
 
-called from stack.cpp: StackPush(): 58
-StackPush() successfully started
-{
-    stk [0061FF08]
-}
+StackUsage:
+   stk = [0061FF08]
+   stk.capacity = 5  |  stk.size = 0  |  stk.data = [00722440]
+   stack: 0xBAD1ABA  0xBA51115A  0xBA51115A  0xBA51115A      0      0  0xDEADDED  
 
-called from stack.cpp: StackPush(): 81
-StackPush() successfully done
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPop(): 91
-StackPop() successfully started
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPop(): 111
-StackPop() successfully done
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPop(): 91
-StackPop() successfully started
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPop(): 111
-StackPop() successfully done
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPush(): 58
-StackPush() successfully started
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPush(): 81
-StackPush() successfully done
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPop(): 91
-StackPop() successfully started
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPop(): 111
-StackPop() successfully done
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPop(): 91
-StackPop() successfully started
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPop(): 111
-StackPop() successfully done
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPush(): 58
-StackPush() successfully started
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPush(): 81
-StackPush() successfully done
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPop(): 91
-StackPop() successfully started
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackPop(): 111
-StackPop() successfully done
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackDestructor(): 260
-StackDestructor() successfully started
-{
-    stk [0061FF08]
-}
-
-called from stack.cpp: StackDestructor(): 271
+called from stack.cpp: StackDestructor(): 274
 {
     stk [0061FF08]
     {
